@@ -1,0 +1,370 @@
+/* Responsive Screen Layout */
+/* Small Mobile Screen */
+@media (min-width: 320px) and (max-width: 424px) {
+    /* Header Section Start */
+    header {
+        background-image: url("../images/bg-header-mobile.png");
+    }
+    header p {
+        width: 90%;
+    }
+    .download-links {
+        width: 90%;
+    }
+    .download-links a {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    /* Header Section End */
+    /* Snippets Section Start */
+    .section-head-summary p {
+        width: 90%;
+    }
+    .snippets-list-image-container {
+        text-align: center;
+        justify-content: center;
+    }
+    .image-container {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .snippets-list-container {
+        width: 90%;
+        margin-left: 0;
+    }
+    /* Snippets Section End */
+    /* Supercharge Section Start */
+    .workflow-feature-container figure {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    /* Supercharge Section End */
+    /* Sponsers Section Start */
+    .sponser-image {
+        width: 70%;
+        margin: 0 auto 40px;
+        text-align: center;
+    }
+    /* Sponsers Section End */
+    /* Footer Section Start */
+    footer section {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .links {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .links ul li {
+        margin-bottom: 10px;
+    }
+    /* Footer Section End */
+}
+/* Large Mobile Screen */
+@media (min-width: 425px) and (max-width: 767px) {
+    /* Header Section Start */
+    header {
+        background-image: url("../images/bg-header-mobile.png");
+    }
+    header p {
+        width: 90%;
+    }
+    .download-links {
+        width: 90%;
+    }
+    .download-links a {
+        width: 80%;
+        margin-bottom: 15px;
+    }
+    /* Header Section End */
+    /* Snippets Section Start */
+    .section-head-summary p {
+        width: 90%;
+    }
+    .snippets-list-image-container {
+        text-align: center;
+        justify-content: center;
+    }
+    .image-container {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .snippets-list-container {
+        width: 90%;
+        margin-left: 0;
+    }
+    /* Snippets Section End */
+    /* Supercharge Section Start */
+    .workflow-feature-container figure {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    /* Supercharge Section End */
+    /* Sponsers Section Start */
+    .sponser-image {
+        width: 70%;
+        margin:0 auto 40px;
+        text-align: center;
+    }
+    /* Sponsers Section End */
+    /* Footer Section Start */
+    footer section {
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .links {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .links ul li {
+        margin-bottom: 10px;
+    }
+    /* Footer Section End */
+}
+/* Tablet Screen  */
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Header Section Start */
+    header {
+        background-image: url("../images/bg-header-mobile.png");
+    }
+    header p {
+        width: 90%;
+    }
+    .download-links {
+        width: 90%;
+    }
+    .download-links a {
+        width: 55%;
+        margin-bottom: 15px;
+    }
+    /* Header Section End */
+    /* Snippets Section Start */
+    .section-head-summary p {
+        width: 90%;
+    }
+    .snippets-list-image-container {
+        justify-content: center;
+        text-align: center;
+    }
+    .image-container {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+    .snippets-list-container {
+        width: 90%;
+        margin-left: 0;
+    }
+    /* Snippets Section End */
+    /* Supercharge Section Start */
+    .workflow-feature-container figure {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    /* Supercharge Section End */
+    /* Sponsers Section Start */
+    .sponser-image {
+        width: 70%;
+        margin: 0 auto 40px;
+        text-align: center;
+    }
+    /* Sponsers Section End */
+    /* Footer Section Start */
+    footer section {
+        width: 60%;
+        margin: 0 auto;
+        display: block;
+        text-align: center;
+    }
+    .links {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .links ul li {
+        margin-bottom: 10px;
+    }
+    /* Footer Section End */
+}
+/* Large Screen */
+@media (min-width: 1024px) and (max-width: 1199px) {
+    /* Header Section Start */
+    header {
+        background-image: url("../images/bg-header-desktop.png");
+    }
+    header p {
+        width: 60%;
+    }
+    .download-links {
+        width: 55%;
+    }
+    .download-links a {
+        width: 40%;
+    }
+    /* Header Section End */
+    /* Snippets Section Start */
+    .section-head-summary p {
+        width: 60%;
+    }
+    .snippets-list-image-container {
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .image-container {
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .snippets-list-container {
+        width: 30%;
+        margin-left: 10%;
+    }
+    /* Snippets Section End */
+    /* Supercharge Section Start */
+    .workflow-feature-container figure {
+        width: 30%;
+    }
+    /* Supercharge Section End */
+    /* Sponsers Section Start */
+    .sponser-image {
+        width: 20%;
+    }
+    /* Sponsers Section End */
+    /* Footer Section Start */
+    footer section {
+        width: 90%;
+    }
+    .links {
+        width: 60%;
+    }
+    .links ul:nth-child(2) {
+        margin: 0 50px;
+    }
+    /* Footer Section End */
+}
+/* Extre Large Screen */
+@media (min-width: 1200px) and (max-width: 1920px) {
+    /* Header Section Start */
+    header {
+        background-image: url("../images/bg-header-desktop.png");
+    }
+    header p {
+        width: 45%;
+    }
+    .download-links {
+        width: 40%;
+    }
+    .download-links a {
+        width: 40%;
+    }
+    /* Header Section End */
+    /* Snippets Section Start */
+    .section-head-summary p {
+        width: 50%;
+    }
+    .snippets-list-image-container {
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .image-container {
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .snippets-list-container {
+        width: 30%;
+        margin-left: 10%;
+    }
+    /* Snippets Section End */
+    /* Supercharge Section Start */
+    .workflow-feature-container figure {
+        width: 30%;
+    }
+    /* Supercharge Section End */
+    /* Sponsers Section Start */
+    .sponser-image {
+        width: 20%;
+    }
+    /* Sponsers Section End */
+    /* Footer Section Start */
+    footer section {
+        width: 80%;
+    }
+    .links {
+        width: 60%;
+    }
+    .links ul:nth-child(2) {
+        margin: 0 50px;
+    }
+    /* Footer Section End */
+}
+/* 2Extre Large Screen */
+@media (min-width: 1921px) {
+    /* Header Section Start */
+    header {
+        background-image: url("../images/bg-header-desktop.png");
+    }
+    header p {
+        width: 30%;
+    }
+    .download-links {
+        width: 30%;
+    }
+    .download-links a {
+        width: 40%;
+    }
+    /* Header Section End */
+    /* Snippets Section Start */
+    .section-head-summary p {
+        width: 40%;
+    }
+    .snippets-list-image-container {
+        width: 60%;
+        margin: 0 auto;
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .image-container {
+        width: 45%;
+        margin-bottom: 0;
+    }
+    .snippets-list-container {
+        width: 30%;
+        margin-left: 10%;
+    }
+    /* Snippets Section End */
+    /* Supercharge Section Start */
+    .workflow-feature-container {
+        width: 60%;
+        margin: 0 auto;
+    }
+    .workflow-feature-container figure {
+        width: 30%;
+    }
+    /* Supercharge Section End */
+    /* Sponsers Section Start */
+    .sponser {
+        width: 60%;
+    }
+    .sponser-image {
+        width: 20%;
+    }
+    /* Sponsers Section End */
+    /* Footer Section Start */
+    footer section {
+        width: 60%;
+    }
+    .links {
+        width: 60%;
+    }
+    .links ul:nth-child(2) {
+        margin: 0 50px;
+    }
+    /* Footer Section End */
+}

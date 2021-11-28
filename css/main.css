@@ -1,0 +1,207 @@
+/* Common Rules Start */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+}
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+    --white: white;
+    --font-w-400: 400;
+    --font-w-600: 600;
+}
+main {
+    max-width: 100vw;
+}
+p {
+    color: var(--grayish-blue);
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 2.5em;
+    color: var(--dark-grayish-blue);
+    font-weight: 600;
+}
+h1 {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 2.3em;
+}
+h2 {
+    width: 90%;
+    margin: 0 auto;
+    font-size:1.7em;
+}
+h3 {
+    font-size: 1.2em;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    margin: 100px 0;
+}
+ul {
+    list-style: none;
+}
+/* Common Rules End */
+/* Header Section Start  */
+header {
+    width: 100%;
+    padding: 100px 0 20px;
+    background-image: url("../images/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.logo {
+    margin-bottom: 50px;
+}
+header p {
+    width: 45%;
+    margin: 20px auto 40px;
+}
+.download-links {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.download-links a {
+    width: 40%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    font-weight: var(--font-w-600);
+}
+.download-links a:hover {
+    opacity: .6;
+    box-shadow: none;
+}
+.download-links a:nth-child(1) {
+    background-color: var(--strong-cyan);
+    box-shadow: 2px 2px 10px 0px var(--strong-cyan);
+}
+.download-links a:nth-child(2) {
+    background-color: var(--light-blue);
+    box-shadow: 2px 2px 10px 0px var(--light-blue);
+}
+/* Header Section End */
+/* Snippets Section Start */
+.section-head-summary {
+    margin: 40px 0 80px;
+    text-align: center;
+}
+.section-head-summary p {
+    margin: 15px auto;
+    font-size: 16px;
+}
+.snippets-list-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.snippets-list-container .snippets-list:nth-child(2) {
+    margin: 40px 0;
+}
+.snippets-list p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+/* Snippets Section End */
+/* Access Section Start */
+.image-container-2 {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.image-container-2 img {
+    max-width: 100%;
+    height: auto;
+}
+/* Access Section End  */
+/* Supercharge Section Start */
+.workflow-feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.workflow-feature-container figure {
+    width: 30%;
+    text-align: center;
+}
+.workflow-feature-container figure figcaption h3 {
+    margin: 25px 0 10px;
+}
+.workflow-feature-container figure figcaption p {
+    font-size: 15px;
+}
+/* Supercharge Section End */
+/* Sponsers Section Start */
+.sponser {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sponser-image img {
+    max-width: 100%;
+    height: auto;
+}
+/* Sponsers Section End */
+/* Footer Section Start */
+footer {
+    background-color: #F5F6F8;
+    padding: 50px 0;
+}
+footer section {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    width: 50px;
+    height: auto;
+}
+.links {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.links ul li a {
+    color: var(--dark-grayish-blue);
+    font-weight: var(--font-w-400);
+    font-size: 16px;
+}
+.social-links i {
+    font-size: 25px;
+    color: var(--dark-grayish-blue);
+    font-weight: var(--font-w-600);
+}
+.social-links a:nth-child(2) {
+    margin: 0 25px;
+}
+.links a:hover, .social-links i:hover {
+    color: var(--strong-cyan);
+}
+/* Footer Section End */
