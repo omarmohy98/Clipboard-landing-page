@@ -47,7 +47,7 @@
     }
     /* Sponsers Section End */
     /* Footer Section Start */
-    footer section {
+    .footer-container {
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -112,7 +112,7 @@
     }
     /* Sponsers Section End */
     /* Footer Section Start */
-    footer section {
+    .footer-container {
         width: 80%;
         margin: 0 auto;
         display: block;
@@ -177,7 +177,7 @@
     }
     /* Sponsers Section End */
     /* Footer Section Start */
-    footer section {
+    .footer-container {
         width: 60%;
         margin: 0 auto;
         display: block;
@@ -238,7 +238,7 @@
     }
     /* Sponsers Section End */
     /* Footer Section Start */
-    footer section {
+    .footer-container {
         width: 90%;
     }
     .links {
@@ -293,7 +293,7 @@
     }
     /* Sponsers Section End */
     /* Footer Section Start */
-    footer section {
+    .footer-container {
         width: 80%;
     }
     .links {
@@ -357,7 +357,7 @@
     }
     /* Sponsers Section End */
     /* Footer Section Start */
-    footer section {
+    .footer-container {
         width: 60%;
     }
     .links {
