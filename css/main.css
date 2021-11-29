@@ -192,6 +192,8 @@ footer img {
     color: var(--dark-grayish-blue);
     font-weight: var(--font-w-400);
     font-size: 16px;
+    position: relative;
+    padding-bottom: 3px;
 }
 .social-links i {
     font-size: 25px;
@@ -203,5 +205,25 @@ footer img {
 }
 .links a:hover, .social-links i:hover {
     color: var(--strong-cyan);
+}
+.links a::after {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: var(--strong-cyan);
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition-duration: 700ms;
+    transition-property: width;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.links a:hover::after {
+    width: 100%;
+}
+.social-links i:hover {
+    transform: scale(1.4);
 }
 /* Footer Section End */
